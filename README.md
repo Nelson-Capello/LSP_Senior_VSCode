@@ -1,4 +1,4 @@
-# lsp README
+# LSP Senior Syntax Highlightning no VSCode README
 
 Extensão para syntax highlightning da LSP - Linguagem de Programação Senior da Senior Sistemas, tecnologia G5, para o VSCode.
 
@@ -28,7 +28,7 @@ Procedimento:
 
 ## Extension Settings
 
-Não precisa de nenhuma configuração adicional para funcionar, apenas se o código não fo reconhecido, associar com a linguagem lsp.
+Não precisa de nenhuma configuração adicional para funcionar, apenas se o código não for reconhecido, associar com a linguagem lsp.
 
 ## Known Issues
 
