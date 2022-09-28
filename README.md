@@ -1,6 +1,6 @@
-# LSP Senior Syntax Highlightning no VSCode README
+# LSP Senior Syntax Highlighting no VSCode README
 
-Extensão para syntax highlightning da LSP - Linguagem de Programação Senior da Senior Sistemas, tecnologia G5, para o VSCode.
+Extensão para syntax highlighting da LSP - Linguagem de Programação Senior da Senior Sistemas, tecnologia G5, para o VSCode.
 
 ## Features
 
