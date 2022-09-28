@@ -1,0 +1,77 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "LSP Senior",
+	"scopeName": "source.lsp",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#functions"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+				"name": "comment.line.lsp",
+				"begin": "@",
+				"end": "@"
+				},
+        {
+				"name":"comment.block.lsp",
+				"begin": "\/[*]",
+				"end": "[*](\/)"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.lsp",
+					"match": "\\b(?i)(se|senao|inicio|fim|fim;|enquanto|para)\\b"
+				},
+				{
+					"name": "keyword.lsp",
+					"match": "\\b(?i)(definir)\\b"
+				}
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.double.lsp",
+					"begin": "\"",
+					"end": "\""
+				},
+				{
+					"name": "string.quoted.single.lsp",
+					"begin": "'",
+					"end": "'"
+				}
+			]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.language.lsp",
+				"match": "\\b(?i)(inteiro|alfa|numero|booleano)\\b"
+			}]
+		},
+		"functions": {
+			"patterns": [{
+				"name": "function.language.lsp",
+				"match": "\\b(?i)(execsql|execsqlex|intparaalfa|convertemascara)\\b"
+			}]
+		}
+
+	}
+}

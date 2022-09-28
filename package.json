@@ -1,0 +1,25 @@
+{
+  "name": "lsp",
+  "displayName": "lsp",
+  "description": "LSP - Linguagem de Programação Senior",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "lsp",
+      "aliases": ["LSP Senior", "lsp"],
+      "extensions": [".lsp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "lsp",
+      "scopeName": "source.lsp",
+      "path": "./syntaxes/lsp.tmLanguage.json"
+    }]
+  }
+}
