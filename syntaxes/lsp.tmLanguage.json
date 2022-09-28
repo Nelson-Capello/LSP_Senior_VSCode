@@ -63,13 +63,13 @@
 		"variables": {
 			"patterns": [{
 				"name": "variable.language.lsp",
-				"match": "\\b(?i)(inteiro|alfa|numero|booleano)\\b"
+				"match": "\\b(?i)(inteiro|alfa|numero|booleano|cursor)\\b"
 			}]
 		},
 		"functions": {
 			"patterns": [{
-				"name": "function.language.lsp",
-				"match": "\\b(?i)(execsql|execsqlex|intparaalfa|convertemascara)\\b"
+				"name": "support.function.language.lsp",
+				"match": "\\b(?i)(ExecSQL|execsqlex|intparaalfa|convertemascara)\\b"
 			}]
 		}
 
