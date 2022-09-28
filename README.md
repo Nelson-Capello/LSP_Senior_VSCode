@@ -15,6 +15,17 @@ For example if there is an image subfolder under your extension project workspac
 
 Precisa obviamente do VSCode para funcionar, para instalar basta copiar os arquivos para a pasta de extensions do VSCode.
 
+Procedimento:
+- vai criar uma pasta chamada lsp dentro de extensions;
+- vai precisar copiar para dentro dessa pasta lsp o seguinte:
+  - pasta images;
+  - pasta syntaxes;
+  - arquivos:
+    - changelog.md;
+    - readme.md;
+    - language-configuration.json;
+    - package.json;
+
 ## Extension Settings
 
 Não precisa de nenhuma configuração adicional para funcionar, apenas se o código não fo reconhecido, associar com a linguagem lsp.
