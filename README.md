@@ -37,7 +37,7 @@ Não precisa de nenhuma configuração adicional para funcionar, apenas associar
 
 Infelizmente não há uma forma de abrir as regras diretamente dos objetos da Senior, então, tem que abrir a regra no editor, copiar, colar no VSCode, editar, copiar e colar de volta no editor de regras da G5. Essa é uma limitação da tecnologia G5 da Senior.
 
-## pendências ou problemas a serem resolvidos:
+## Pendências ou problemas a serem resolvidos:
 
 - tem alguns temas que as palavras reservadas para variáveis aparecem em cor diferente, como alfa e inteiro;
 - tem que incluir as variáveis do financeiro por exemplo, as FinPEetcetc;
