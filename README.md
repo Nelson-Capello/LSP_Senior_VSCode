@@ -1,15 +1,18 @@
-# LSP Senior Syntax Highlightning no VSCode README
+# `LSP Senior Syntax Highlighting no VSCode README`
 
-Extensão para syntax highlightning da LSP - Linguagem de Programação Senior da Senior Sistemas, tecnologia G5, para o VSCode.
+Extensão para syntax highlighting da LSP - Linguagem de Programação Senior da Senior Sistemas, tecnologia G5, para o VSCode.
+
+## `DISCLAIMER`:
+
+Este projeto está sendo desenvolvido de forma independente e não tem nenhuma ligação, vínculo ou relação com a empresa Senior Sistemas, detentora da tecnologia da linguagem LSP e dos sistemas que a utilizam.
+
+A intenção é que Consultores que desejam utilizar o VSCode ao invés do Editor de Regras da Tecnologia G5 da Senior o possam fazer com mais produtividade e desenvoltura, e que o projeto possa evoluir para contemplar também os snippets da linguagem, facilitando o uso para Consultores iniciantes.
 
 ## Features
 
 Faz a coloração do código conforme palavras reservadas, variáveis, funções, etc.
 
-isso aqui eu mantive aqui apenas como referencia:
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
+Futuramente pretendo ter os snippets da linguagem também disponíveis.
 
 ## Requirements
 
@@ -28,27 +31,17 @@ Procedimento:
 
 ## Extension Settings
 
-Não precisa de nenhuma configuração adicional para funcionar, apenas se o código não for reconhecido, associar com a linguagem lsp.
+Não precisa de nenhuma configuração adicional para funcionar, apenas associar com a linguagem lsp, no VSCode.
 
 ## Known Issues
 
 Infelizmente não há uma forma de abrir as regras diretamente dos objetos da Senior, então, tem que abrir a regra no editor, copiar, colar no VSCode, editar, copiar e colar de volta no editor de regras da G5. Essa é uma limitação da tecnologia G5 da Senior.
 
+## pendênmcias ou problemas a serem resolvidos:
+
+- tem alguns temas que as palavras reservadas para variáveis aparecem em cor diferente, como alfa e inteiro;
+- tem que incluir as variáveis do financeiro por exemplo, as FinPEetcetc;
+
 ## Releases:
 
 Para observações sobre releases, atualizações, correções, etc, ver arquivo Changelog.md.
-
-## Working with Markdown - isso eu mantive aqui apenas como referencia
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

@@ -47,6 +47,10 @@
 				{
 					"name": "keyword.lsp",
 					"match": "\\b(?i)(Abrir|Cancel|Continue|Cursor|Definir|DesfazerTransacao|Fechar|FinalizarTransacao|Formatar|FormatarN|Funcao|Gravar|Gravarnl|Grid|IniciarTransacao|Inserir|Ler|Lernl|Mensagem|Numero|Para|Pare|Regra|Tabela|ValStr|VaPara)\\b"
+				},
+				{
+					"name": "keyword.operators.lsp",
+					"match": "\\b(?i)(e|ou)\\b"
 				}
 			]
 		},
@@ -82,10 +86,16 @@
 				"match": "\\b(?i)(ExecSQL|execsqlex|ObterValorAlfaPadraoCNAB|ObterValorNumericoPadraoCNAB|DeixaNumeros|UltimoDia|CPFValido|CNPJValido|Arredonda|ObterValorDecimalPadraoCNAB|ObterValorDataPadraoCNAB|AlfaParaInt|ArqExiste|AtualizaBarraProgresso|CaracterParaAlfa|CodData|ConverteCodificacaoString|ConverteMascara|ConverteParaMaiusculo|ConverteParaMinusculo|ConverteTexto|CopiarAlfa|CriarArquivoTemporario|DataHoje|DataHora|DecodData|DeletarAlfa|Desencriptar|Dividir|Encriptar|ExcluirArquivoTemporario|ExecProg|FinalizaBarraProgresso|FormatarData|GeraHash|GerarNonce|GerarPwdDigest|GeraSenha|GeraToken|HoraParaMinuto|IniciaBarraProgresso|IntParaAlfa|LerPosicaoAlfa|LinhasArquivo|ListaItem|ListaQuantidade|Mensagem|ObtemIdiomaAtivo|ObterVersaoSistema|OcultaBarraProgressoRelatorio|PosicaoAlfa|RemoveExpressoesProibidas|RestoDivisao|RetornaValorCFG|TamanhoAlfa|TrocaString|Truncar|VerificaAbaAtiva|VrfAbrA|VrfAbrN|DesmontaData)\\b"}]
 		},
 		"constants": {
-			"patterns": [{
-				"name": "entity.other.lsp",
-				"match": "\\b(?i)(def|def|nelsonteste)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "constant.language.lsp",
+					"match": "\\b(?i)(def|nelsonteste)\\b"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "[0-9]"
+				}
+			]
 		}
 
 	}
