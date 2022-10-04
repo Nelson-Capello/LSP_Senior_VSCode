@@ -24,21 +24,37 @@ Para trabalhar com LSP no VSCode, recomendo utilizarem também a extensão Numbe
 
 Precisa obviamente do VSCode para funcionar, para instalar basta copiar os arquivos para a pasta de extensions do VSCode.
 
+## Como Instalar:
+
 Procedimento:
-- vai criar uma pasta chamada lsp dentro de extensions;
-- vai precisar copiar para dentro dessa pasta lsp o seguinte:
-  - pasta images;
-  - pasta syntaxes;
-  - arquivos:
-    - changelog.md;
-    - readme.md;
-    - language-configuration.json;
-    - package.json;
+- baixar os arquivos aqui do repositório, não precisa ser todos, mas por praticidade, pode baixar o .zip em Code - download ZIP; talvez um dia eu faça um release com o .zip pronto com tudo o que precisa.
+
+- Se baixou o .zip do GitHub:
+  - descompactar na pasta extensions do VSCode (aqui funcionou em %LocalAppData%\Programs\Microsoft VS Code\resources\app\extensions\);
+  - renomear a pasta que o .zip cria para 'lsp' (sem as '');
+    - vai ser algo como LSP_Senior_VSCode-main, renomear para lsp;
+  - as seguintes pastas e arquivos não são necessárias para o funcionamento e podem ser excluídos (opcional):
+    - .vscode;
+    - .gitignore;
+    - .vscodeignore;
+    - vsc-extension-quickstart.md;
+    - .gitattributes;
+
+- Instalação Manual:
+  - vai criar uma pasta chamada lsp dentro de extensions;
+  - vai precisar copiar para dentro dessa pasta lsp os seguintes arquivos e pastas:
+    - pasta images e seu conteúdo;
+    - pasta syntaxes e seu conteúdo;
+    - arquivos:
+      - changelog.md;
+      - readme.md;
+      - language-configuration.json;
+      - package.json;
 
 ## Extension Settings
 
 Não precisa de nenhuma configuração adicional para funcionar, apenas associar com a linguagem lsp, no VSCode.
-se, ao gravar os arquivos, utilizar extensão .lsp, eles são automaticamente reconhecidos como LSP Senior e a extensão é automaticamente ativada.
+Se, ao gravar os arquivos, utilizar extensão .lsp, eles são automaticamente reconhecidos como LSP Senior e a extensão é automaticamente ativada.
 
 ## Known Issues
 
