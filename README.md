@@ -14,6 +14,12 @@ Faz a coloração do código conforme palavras reservadas, variáveis, funções
 
 Futuramente pretendo ter os snippets da linguagem também disponíveis.
 
+## Vantagens de trabalhar com LSP no VSCode ao invés do Editor de Regras:
+
+Principalmente, a disponibilidade de funcionalidades modernas de desenvolvimento, utilização de temas, plugins, extensões, controle de versão (GitHub), etc, e os avançados recursos de edição disponíveis no VSCode, voltado para desenvolvedores.
+
+Para trabalhar com LSP no VSCode, recomendo utilizarem também a extensão Numbered Bookmarks, que implementa os bookmarks da mesma forma que o editor de regras da Senior, ctrl+shift+numero cria ou exclui, ctrl+numero navega. Tem a vantagem de salvar os bookmarks com o projeto, então, quando vc reabrir o seu arquivo .lsp, eles vão estar lá.
+
 ## Requirements
 
 Precisa obviamente do VSCode para funcionar, para instalar basta copiar os arquivos para a pasta de extensions do VSCode.
@@ -32,14 +38,18 @@ Procedimento:
 ## Extension Settings
 
 Não precisa de nenhuma configuração adicional para funcionar, apenas associar com a linguagem lsp, no VSCode.
+se, ao gravar os arquivos, utilizar extensão .lsp, eles são automaticamente reconhecidos como LSP Senior e a extensão é automaticamente ativada.
 
 ## Known Issues
 
 Infelizmente não há uma forma de abrir as regras diretamente dos objetos da Senior, então, tem que abrir a regra no editor, copiar, colar no VSCode, editar, copiar e colar de volta no editor de regras da G5. Essa é uma limitação da tecnologia G5 da Senior.
 
-## Pendências ou problemas a serem resolvidos:
+## Pendências, problemas, dúvidas e sugestões:
 
 - Ver "issues" no GitHub;
+- Se encontrar algum problema, tiver alguma dúvida ou sugestão, por favor abra um issue :) assim vc ajuda na melhoria da funcionalidade.
+- O projeto é público, fique à vontade para criar seu fork se desejar, mas se a sua versão ficar melhor que a minha, me avise!
+- Da mesma forma, quem quiser contribuir também é bem vindo! Como em todo projeto com mais de um participante, haverá moderação para as implementações, mas, de forma bem democrática, sugestões e opiniões serão sempre bem-vindas.
 
 ## Releases:
 
