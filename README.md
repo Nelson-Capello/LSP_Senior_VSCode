@@ -39,8 +39,7 @@ Infelizmente não há uma forma de abrir as regras diretamente dos objetos da Se
 
 ## Pendências ou problemas a serem resolvidos:
 
-- tem alguns temas que as palavras reservadas para variáveis aparecem em cor diferente, como alfa e inteiro;
-- tem que incluir as variáveis do financeiro por exemplo, as FinPEetcetc;
+- Ver "issues" no GitHub;
 
 ## Releases:
 
