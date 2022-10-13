@@ -26,6 +26,13 @@ Precisa obviamente do VSCode para funcionar, para instalar basta copiar os arqui
 
 ## Como Instalar:
 
+`WARNING! WARNING! WARNING!`
+
+Descobri (da pior forma) que arquivos copiados manualmente para a pasta sugerida abaixo podem ser excluídos sem aviso em atualizações do VSCode.
+Então se a pasta lsp "sumir" vc terá que reinstalar.
+
+---
+
 Procedimento:
 - baixar os arquivos aqui do repositório, não precisa ser todos, mas por praticidade, pode baixar o .zip em Code - download ZIP; talvez um dia eu faça um release com o .zip pronto com tudo o que precisa.
 
