@@ -30,6 +30,7 @@ Precisa obviamente do VSCode para funcionar, para instalar basta copiar os arqui
 
 Descobri (da pior forma) que arquivos copiados manualmente para a pasta sugerida abaixo podem ser excluídos sem aviso em atualizações do VSCode.
 Então se a pasta lsp "sumir" vc terá que reinstalar.
+Também, estou tendo problemas a cada atualização do VSCode, que não está completando e essa extensão instalada dessa forma pode estar sendo a causa. BEWARE!
 
 ---
 
