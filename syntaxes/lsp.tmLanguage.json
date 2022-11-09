@@ -93,7 +93,7 @@
 				},
 				{
 					"name": "constant.numeric",
-					"match": "[0-9]"
+					"match": "\\b(0|(0[dD]\\d|[1-9])(?>_?\\d)*)r?i?\\b"
 				}
 			]
 		}
